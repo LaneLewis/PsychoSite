@@ -1,0 +1,25 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/System_Operations.js",
+  "scripts": {
+    "doc": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/core": "^3.2.5",
+    "@octokit/rest": "^18.12.0",
+    "better-sqlite3": "7.1.2",
+    "box-node-sdk": "1.36.0",
+    "clean-jsdoc-theme": "^3.3.3",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "multer": "1.4.2",
+    "node-gyp": "7.1.2"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.10"
+  }
+}

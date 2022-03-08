@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adding favicon -->
+    
+
+    <!-- Adding meta -->
+    
+
+    <!-- Adding external script-->
+    
+
+    <!-- Adding external style-->
+    
+
+    <!-- Adding scripts-->
+    
+
+    <!-- Adding style-->
+    
+
+    <!-- Adding overlay script-->
+    
+
+    <!-- Adding overlay style-->
+    
+
+
+    <title>
+      Subject_Key/Subject_Key_Base.js
+    </title>
+
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/third-party/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/third-party/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/reset.css">
+    <link type="text/css" rel="stylesheet" href="styles/clean-jsdoc-theme-base.css">
+    <link type="text/css" rel="stylesheet" href="styles/clean-jsdoc-theme-dark.css">
+    
+    <svg aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="display:none">
+    <defs>
+        <symbol id="copy-icon" viewbox="0 0 488.3 488.3">
+            <g>
+                <path
+                    d="M314.25,85.4h-227c-21.3,0-38.6,17.3-38.6,38.6v325.7c0,21.3,17.3,38.6,38.6,38.6h227c21.3,0,38.6-17.3,38.6-38.6V124    C352.75,102.7,335.45,85.4,314.25,85.4z M325.75,449.6c0,6.4-5.2,11.6-11.6,11.6h-227c-6.4,0-11.6-5.2-11.6-11.6V124    c0-6.4,5.2-11.6,11.6-11.6h227c6.4,0,11.6,5.2,11.6,11.6V449.6z" />
+                <path
+                    d="M401.05,0h-227c-21.3,0-38.6,17.3-38.6,38.6c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5c0-6.4,5.2-11.6,11.6-11.6h227    c6.4,0,11.6,5.2,11.6,11.6v325.7c0,6.4-5.2,11.6-11.6,11.6c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5c21.3,0,38.6-17.3,38.6-38.6    V38.6C439.65,17.3,422.35,0,401.05,0z" />
+            </g>
+        </symbol>
+        <symbol id='search-icon' viewBox="0 0 512 512">
+            <g>
+                <g>
+                    <path
+                        d="M225.474,0C101.151,0,0,101.151,0,225.474c0,124.33,101.151,225.474,225.474,225.474    c124.33,0,225.474-101.144,225.474-225.474C450.948,101.151,349.804,0,225.474,0z M225.474,409.323    c-101.373,0-183.848-82.475-183.848-183.848S124.101,41.626,225.474,41.626s183.848,82.475,183.848,183.848    S326.847,409.323,225.474,409.323z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path
+                        d="M505.902,476.472L386.574,357.144c-8.131-8.131-21.299-8.131-29.43,0c-8.131,8.124-8.131,21.306,0,29.43l119.328,119.328    c4.065,4.065,9.387,6.098,14.715,6.098c5.321,0,10.649-2.033,14.715-6.098C514.033,497.778,514.033,484.596,505.902,476.472z" />
+                </g>
+            </g>
+        </symbol>
+        <symbol id="down-icon" viewBox="0 0 16 16">
+            <path 
+                fill-rule="evenodd" 
+                clip-rule="evenodd" 
+                d="M12.7803 6.21967C13.0732 6.51256 13.0732 6.98744 12.7803 7.28033L8.53033 11.5303C8.23744 11.8232 7.76256 11.8232 7.46967 11.5303L3.21967 7.28033C2.92678 6.98744 2.92678 6.51256 3.21967 6.21967C3.51256 5.92678 3.98744 5.92678 4.28033 6.21967L8 9.93934L11.7197 6.21967C12.0126 5.92678 12.4874 5.92678 12.7803 6.21967Z"
+            >
+            </path>
+        </symbol>
+    </defs>
+</svg>
+  </head>
+
+  <body>
+
+    <nav class="navbar" id="navbar">
+      <div class="navbar-heading" id="navbar-heading"><a href="index.html"><h2 class="navbar-heading-text">Home</h2></a></div><div class="search-box" id="search-box"><div class="search-box-input-container"><input class="search-box-input" type="text" placeholder="Search..." id="search-box-input" /><svg class="search-icon" alt="search-icon"><use xlink:href="#search-icon"></use></svg></div><div class="search-item-container" id="search-item-container"><ul class="search-item-ul" id="search-item-ul"></ul></div></div><div class="sidebar-main-content" id="sidebar-main-content"><div class="accordion collapsed" id="8483135" > <h3 class="accordion-heading">Modules<svg><use xlink:href="#down-icon"></use></svg></h3><ul class="accordion-content"><li class="accordion collapsed child" id=3363800><div class="accordion-heading child"><a href="module-Box_Box_File_Mangement.html">Box/Box_File_Mangement</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Box_Box_File_Mangement.html#~Get_Dowload_Access_To_Folder">Get_Dowload_Access_To_Folder</a></li><li data-type='method'><a href="module-Box_Box_File_Mangement.html#~Get_Ids_In_Folder">Get_Ids_In_Folder</a></li><li data-type='method'><a href="module-Box_Box_File_Mangement.html#~Make_Download_Link_To_Folder">Make_Download_Link_To_Folder</a></li></ul></li><li class="accordion collapsed child" id=3102539><div class="accordion-heading child"><a href="module-Box_Write_File_To_Box.html">Box/Write_File_To_Box</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Box_Write_File_To_Box.html#~Update_File">Update_File</a></li><li data-type='method'><a href="module-Box_Write_File_To_Box.html#~Upload_File">Upload_File</a></li></ul></li><li class="accordion collapsed child" id=88735><div class="accordion-heading child"><a href="module-File_Upload_Authenticate.html">File_Upload/Authenticate</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-File_Upload_Authenticate.html#~Authenticate">Authenticate</a></li><li data-type='method'><a href="module-File_Upload_Authenticate.html#~Basic_Authentication">Basic_Authentication</a></li><li data-type='method'><a href="module-File_Upload_Authenticate.html#~Terminate_Connection">Terminate_Connection</a></li></ul></li><li class="accordion collapsed child" id=5192265><div class="accordion-heading child"><a href="module-File_Upload_Request_Filters.html">File_Upload/Request_Filters</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-File_Upload_Request_Filters.html#~Build_Array_Of_Field_Objs">Build_Array_Of_Field_Objs</a></li><li data-type='method'><a href="module-File_Upload_Request_Filters.html#~File_Filter">File_Filter</a></li><li data-type='method'><a href="module-File_Upload_Request_Filters.html#~Filter_By_Size">Filter_By_Size</a></li><li data-type='method'><a href="module-File_Upload_Request_Filters.html#~To_Byte_Size">To_Byte_Size</a></li><li data-type='method'><a href="module-File_Upload_Request_Filters.html#~Verify_Uploaded_Files">Verify_Uploaded_Files</a></li></ul></li><li class="accordion collapsed child" id=3235564><div class="accordion-heading child"><a href="module-File_Upload_Upload_Files.html">File_Upload/Upload_Files</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-File_Upload_Upload_Files.html#~File_To_Box">File_To_Box</a></li></ul></li><li class="accordion collapsed child" id=4419303><div class="accordion-heading child"><a href="module-Github_Github_Authorization.html">Github/Github_Authorization</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Github_Github_Authorization.html#~Does_User_Have_Repository_Access">Does_User_Have_Repository_Access</a></li><li data-type='method'><a href="module-Github_Github_Authorization.html#~Get_Member_Status">Get_Member_Status</a></li><li data-type='method'><a href="module-Github_Github_Authorization.html#~Get_User_Orgs">Get_User_Orgs</a></li><li data-type='method'><a href="module-Github_Github_Authorization.html#~Get_Username">Get_Username</a></li><li data-type='method'><a href="module-Github_Github_Authorization.html#~Is_User_In_Org">Is_User_In_Org</a></li><li data-type='method'><a href="module-Github_Github_Authorization.html#~Is_User_Valid">Is_User_Valid</a></li></ul></li><li class="accordion collapsed child" id=5326146><div class="accordion-heading child"><a href="module-Permissions_Permission_Functions.html">Permissions/Permission_Functions</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Permissions_Permission_Functions.html#~Permission_To_Delete_Relay">Permission_To_Delete_Relay</a></li><li data-type='method'><a href="module-Permissions_Permission_Functions.html#~Permission_To_Delete_Subject_Key">Permission_To_Delete_Subject_Key</a></li><li data-type='method'><a href="module-Permissions_Permission_Functions.html#~Permission_To_Get_Relay_Params">Permission_To_Get_Relay_Params</a></li><li data-type='method'><a href="module-Permissions_Permission_Functions.html#~Permission_To_Get_Subject_Key">Permission_To_Get_Subject_Key</a></li><li data-type='method'><a href="module-Permissions_Permission_Functions.html#~Permission_To_Make_Relay">Permission_To_Make_Relay</a></li><li data-type='method'><a href="module-Permissions_Permission_Functions.html#~Permission_To_Make_Subject_Key">Permission_To_Make_Subject_Key</a></li><li data-type='method'><a href="module-Permissions_Permission_Functions.html#~Permission_To_Modify_Relay_Params">Permission_To_Modify_Relay_Params</a></li><li data-type='method'><a href="module-Permissions_Permission_Functions.html#~Permission_To_Modify_Subject_Key">Permission_To_Modify_Subject_Key</a></li></ul></li><li class="accordion collapsed child" id=5072110><div class="accordion-heading child"><a href="module-Relay_Relay_Base.html">Relay/Relay_Base</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Relay_Relay_Base.html#~Add_Relay">Add_Relay</a></li><li data-type='method'><a href="module-Relay_Relay_Base.html#~Delete_Relay">Delete_Relay</a></li><li data-type='method'><a href="module-Relay_Relay_Base.html#~Get_Relay_Params">Get_Relay_Params</a></li><li data-type='method'><a href="module-Relay_Relay_Base.html#~Iterate_Relay_Params">Iterate_Relay_Params</a></li><li data-type='method'><a href="module-Relay_Relay_Base.html#~Make_Relay_Table">Make_Relay_Table</a></li><li data-type='method'><a href="module-Relay_Relay_Base.html#~Set_Base_Folder">Set_Base_Folder</a></li><li data-type='method'><a href="module-Relay_Relay_Base.html#~Set_Write_Endpoints">Set_Write_Endpoints</a></li><li data-type='method'><a href="module-Relay_Relay_Base.html#~Update_Relay_Params">Update_Relay_Params</a></li></ul></li><li class="accordion collapsed child" id=1538516><div class="accordion-heading child"><a href="module-Relay_Relay_Router.html">Relay/Relay_Router</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Relay_Relay_Router.html#.Basic_Authorization_Relay_And_Github_Key">Basic_Authorization_Relay_And_Github_Key</a></li><li data-type='method'><a href="module-Relay_Relay_Router.html#~Terminate_Connection">Terminate_Connection</a></li></ul></li><li class="accordion collapsed child" id=7631608><div class="accordion-heading child"><a href="module-SQL_SQL_Functions.html">SQL/SQL_Functions</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Backup_DB">Backup_DB</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Clear_Table">Clear_Table</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Create_Table">Create_Table</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Delete_All">Delete_All</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Delete_Table">Delete_Table</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Delete_Table_Entry">Delete_Table_Entry</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Does_Table_Exist">Does_Table_Exist</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Get_By_Key">Get_By_Key</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Get_Table_Names">Get_Table_Names</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Get_Table_Schema">Get_Table_Schema</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Insert_Object_Into_Table">Insert_Object_Into_Table</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Restore_From_Backup">Restore_From_Backup</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Retrieve_All_From_Table">Retrieve_All_From_Table</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Update_Table_From_Obj">Update_Table_From_Obj</a></li><li data-type='method'><a href="module-SQL_SQL_Functions.html#~Write_Table_To_CSV">Write_Table_To_CSV</a></li></ul></li><li class="accordion collapsed child" id=6003975><div class="accordion-heading child"><a href="module-subject_Key_subject_Key_Router.html">subject_Key/subject_Key_Router</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-subject_Key_subject_Key_Router.html#~Basic_Authentication">Basic_Authentication</a></li><li data-type='method'><a href="module-subject_Key_subject_Key_Router.html#~Terminate_Connection">Terminate_Connection</a></li></ul></li><li class="accordion collapsed child" id=2291597><div class="accordion-heading child"><a href="module-Write_Key_Write_Key_Base.html">Write_Key/Write_Key_Base</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Write_Key_Write_Key_Base.html#~Add_Subject_Key">Add_Subject_Key</a></li><li data-type='method'><a href="module-Write_Key_Write_Key_Base.html#~Create_Custom_Path">Create_Custom_Path</a></li><li data-type='method'><a href="module-Write_Key_Write_Key_Base.html#~Delete_Subject_Key">Delete_Subject_Key</a></li><li data-type='method'><a href="module-Write_Key_Write_Key_Base.html#~Get_All_Subject_Keys">Get_All_Subject_Keys</a></li><li data-type='method'><a href="module-Write_Key_Write_Key_Base.html#~Get_Subject_Key">Get_Subject_Key</a></li><li data-type='method'><a href="module-Write_Key_Write_Key_Base.html#~Random_Number_N_Digits">Random_Number_N_Digits</a></li><li data-type='method'><a href="module-Write_Key_Write_Key_Base.html#~Update_Subject_Key">Update_Subject_Key</a></li></ul></li></ul> </div><div class="accordion collapsed" id="6286250" > <h3 class="accordion-heading">Namespaces<svg><use xlink:href="#down-icon"></use></svg></h3><ul class="accordion-content"><li class="accordion collapsed child" id=1024501><div class="accordion-heading child"><a href="API.html">API</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="API.html#.POST/relay/createRelay">POST/relay/createRelay</a></li><li data-type='method'><a href="API.html#.POST/relay/deleteRelay">POST/relay/deleteRelay</a></li><li data-type='method'><a href="API.html#.POST/relay/getRelay">POST/relay/getRelay</a></li><li data-type='method'><a href="API.html#.POST/relay/modifyRelay/">POST/relay/modifyRelay/</a></li><li data-type='method'><a href="API.html#.POST/subjectKey/createSubjectKey">POST/subjectKey/createSubjectKey</a></li><li data-type='method'><a href="API.html#.POST/subjectKey/deleteSubjectKey">POST/subjectKey/deleteSubjectKey</a></li><li data-type='method'><a href="API.html#.POST/SubjectKey/getSubjectKey">POST/SubjectKey/getSubjectKey</a></li><li data-type='method'><a href="API.html#.POST/subjectKey/modifysubjectKey">POST/subjectKey/modifysubjectKey</a></li><li data-type='method'><a href="API.html#.POST/Upload/">POST/Upload/</a></li></ul></li></ul> </div>
+      
+
+    </nav>
+    <div class="navbar-ham" id="navbar-ham">
+      <div>
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+      </div>
+    </div>
+
+    <div id="main" class="main-content">
+      
+      <h1 id='page-title' class="page-title">
+        Subject_Key/Subject_Key_Base.js
+      </h1>
+      
+
+      
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @module Write_Key/Write_Key_Base
+*/
+let {Does_Table_Exist,
+    Delete_Table_Entry,
+    Retrieve_All_From_Table,
+    Insert_Object_Into_Table,
+    Get_By_Key,
+    Update_Table_From_Obj}=require("../SQL/SQL_Functions" )
+
+let {Iterate_Relay_Params,
+    Get_Relay_Params} = require("../Relay/Relay_Base")
+
+let { Make_Data_Folders }=require("../Box/Box_File_Management")
+    /**
+     * Checks if relay exists, if it does the relayParams
+     * are pulled and attempted to be iterated. If the relay pulls would go over the maxRelayPulls
+     * of the relay an error is thrown. A random number of length 7 is then 
+     * checked to see if it exists in the subjectKey db, this is attempted up
+     * to a maximum of 5 times. If successful, a new write key is created 
+     * from the relayName with the fields uploadState (a mapping of endpoints to 
+     * scope and an empty file objects), subjectKey (the subjectKey number),pullNumber 
+     * (the pull count when the key was created), metaData (any attached metaData
+     * from the function call).
+     * @param {String} relayName - subject key name
+     * @param {String} metaData - metaData to attach to the subjectKey
+     */
+    async function Add_Subject_Key(relayName,metaData=""){
+        if (! Does_Table_Exist(relayName)){
+            throw Error("relay table does not exist")
+        }
+        let relay=Get_Relay_Params(relayName)
+        if (! relay){
+            throw Error("relay entry does not exist in Relays")
+        }
+        if (relay.currentRelayPulls+1>relay.maxRelayPulls){
+            throw Error("Access key out of uses")
+        }
+        for (var i =0; i&lt;5; i++){
+            var randomKey=Random_Number_N_Digits(7)
+            if (! Get_By_Key({subjectKey:randomKey},`'${relayName}'`)){
+                break
+            }
+            if (i == 4){
+                throw Error("Collision retry limit exceeded")
+            }
+        }
+        let uploadState={}
+        try{
+            for (var [key, value] of Object.entries(relay.writeEndpoints)){
+                await Create_Custom_Path(value,randomKey,relay.currentRelayPulls)
+                uploadState[key]={scope:value,files:{}}
+            }
+        }
+        catch(e){
+            throw Error("Error while building endpoints")
+        }
+            try{
+                let addToTable={
+                    subjectKey:randomKey,
+                    uploadState:uploadState,
+                    relayNumber:relay.currentRelayPulls,
+                    metaData:metaData}
+                let success = Insert_Object_Into_Table(addToTable,`'${relayName}'`)
+                if (success){
+                    Iterate_Relay_Params(relayName)
+                    return randomKey
+                }
+                return null
+            }
+            catch(e){
+                throw Error("Issue in adding write key")
+            }
+    }
+    /**
+     * Deletes the write key from the relayName table.
+     * Returns true if successful, false otherwise.
+     * @param {String} relayName - relay name
+     * @param {String} subjectKey - subject key
+     */
+    function Delete_Subject_Key(relayName,subjectKey){
+        return Delete_Table_Entry({subjectKey:subjectKey},`'${relayName}'`)
+    }
+    /**
+     * Retrieves the subjectKey from the relayName database and
+     * parses the uploadState field into an object. Returns
+     * the subjectKey.
+     * @param {String} relayName - relay name
+     * @param {String} subjectKey - subject key
+     */
+    function Get_Subject_Key(relayName,subjectKey){
+        return Get_By_Key({subjectKey:subjectKey},`'${relayName}'`,["uploadState"])
+    }
+    /**
+     * Takes in the object of fields and values associated with a writekey and updates 
+     * the subjectKey fields with the specified values. Returns true if successful, otherwise
+     * an error is thrown.
+     * @param {String} relayName - relay name
+     * @param {Object} subjectKeyObj - Object of field values to update in the subjectKey
+     */
+    function Update_Subject_Key(relayName,subjectKeyObj){
+        let cloneSubjectKey = JSON.parse(JSON.stringify(subjectKeyObj))
+        if (cloneSubjectKey.uploadState){
+            cloneSubjectKey.uploadState=JSON.stringify(cloneSubjectKey.uploadState)
+        }
+        return Update_Table_From_Obj({subjectKey:cloneSubjectKey.subjectKey},cloneSubjectKey,`"${relayName}"`)
+    }
+    /**
+     * Makes and returns random number of length n.
+     * @param {Number} n - length of random number to generate
+     */
+    function Random_Number_N_Digits(n){
+        let initial_string=""
+        for (var i=0;i&lt;n;i++){
+            initial_string+=String(Math.floor(Math.random()*10))
+        }
+        return initial_string
+    }
+    /**
+     * Modifies the file path on the value object, which is the set of endpoint params,
+     * where the parameters subjectKey and pull key give values to substitute in for any
+     * path where "subjectKey" or "pullCount" are found. This allows for unique pathing
+     * on the upload of each subjectKey to directory locations. 
+     * @param {Object} value - value that endpoint maps to
+     * @param {String} subjectKey - write key
+     * @param {String} keyPull - count associated with key
+     */
+    async function Create_Custom_Path(value,subjectKey,keyPull){
+        try{
+            if (! typeof value.customPath === "string"){
+                throw Error("Custom paths only accept strings as arguments")
+            }
+            let splitWritePath=value.customPath.split(/[s][u][b][j][e][c][t][K][e][y]/)
+            let rejoinedPath=splitWritePath.join(subjectKey)
+            let splitPullPath=rejoinedPath.split(/[p][u][l][l][C][o][u][n][t]/)
+            let rejoinedFinal=splitPullPath.join(keyPull)
+            if (! (value.customPath==rejoinedFinal)){
+                let newBoxId=await Make_Data_Folders(value.boxFolderId,rejoinedFinal,[])
+                value.boxFolderId = Object.values(newBoxId.basetree)[0]
+            }
+            delete value.customPath
+            value.boxRelativePath=value.boxRelativePath+rejoinedFinal
+        }
+        catch(e){
+            throw e
+        }
+    }
+    
+    /**
+     * Retrieves all the write keys associated with the relayName.
+     * @param {String} relayName - relay name
+     */
+    function Get_All_Subject_Keys(relayName){
+        try{
+            return Retrieve_All_From_Table(relayName,["uploadState"])
+        }
+        catch(e){
+            throw e
+        }
+    }
+    
+    module.exports={
+        Add_Subject_Key,
+        Delete_Subject_Key,
+        Add_Subject_Key,
+        Update_Subject_Key,
+        Get_Subject_Key,
+        Get_All_Subject_Keys
+    }</code></pre>
+        </article>
+    </section>
+
+
+
+
+    </div>
+
+    <footer class="footer" id="footer">
+      
+    </footer>
+
+    <script src="scripts/third-party/prettify.js"></script>
+    <script src="scripts/third-party/lang-css.js"></script>
+    <script type="text/javascript" src="scripts/misc.js"></script>
+
+    <script>prettyPrint();</script>
+    <script src="scripts/linenumber.js"></script>
+    <script src="scripts/fix-code-block.js"></script>
+    <script src="scripts/fix-navbar.js"></script>
+    
+      <script src="scripts/search.js"></script>
+      <script src="scripts/third-party/fuse.js"></script>
+      <script>
+        var list = [{"title":"Box/Box_File_Mangement","link":"<a href=\"module-Box_Box_File_Mangement.html\">Box/Box_File_Mangement</a>"},{"title":"module:Box/Box_File_Mangement~Get_Dowload_Access_To_Folder","link":"<a href=\"module-Box_Box_File_Mangement.html#~Get_Dowload_Access_To_Folder\">module:Box/Box_File_Mangement~Get_Dowload_Access_To_Folder &rtrif; undefined</a>"},{"title":"module:Box/Box_File_Mangement~Get_Ids_In_Folder","link":"<a href=\"module-Box_Box_File_Mangement.html#~Get_Ids_In_Folder\">module:Box/Box_File_Mangement~Get_Ids_In_Folder &rtrif; undefined</a>"},{"title":"module:Box/Box_File_Mangement~Make_Download_Link_To_Folder","link":"<a href=\"module-Box_Box_File_Mangement.html#~Make_Download_Link_To_Folder\">module:Box/Box_File_Mangement~Make_Download_Link_To_Folder &rtrif; undefined</a>"},{"title":"Box/Write_File_To_Box","link":"<a href=\"module-Box_Write_File_To_Box.html\">Box/Write_File_To_Box</a>"},{"title":"module:Box/Write_File_To_Box~Update_File","link":"<a href=\"module-Box_Write_File_To_Box.html#~Update_File\">module:Box/Write_File_To_Box~Update_File &rtrif; undefined</a>"},{"title":"module:Box/Write_File_To_Box~Upload_File","link":"<a href=\"module-Box_Write_File_To_Box.html#~Upload_File\">module:Box/Write_File_To_Box~Upload_File &rtrif; undefined</a>"},{"title":"File_Upload/Authenticate","link":"<a href=\"module-File_Upload_Authenticate.html\">File_Upload/Authenticate</a>"},{"title":"module:File_Upload/Authenticate~Authenticate","link":"<a href=\"module-File_Upload_Authenticate.html#~Authenticate\">module:File_Upload/Authenticate~Authenticate &rtrif; undefined</a>"},{"title":"module:File_Upload/Authenticate~Basic_Authentication","link":"<a href=\"module-File_Upload_Authenticate.html#~Basic_Authentication\">module:File_Upload/Authenticate~Basic_Authentication &rtrif; undefined</a>"},{"title":"module:File_Upload/Authenticate~Terminate_Connection","link":"<a href=\"module-File_Upload_Authenticate.html#~Terminate_Connection\">module:File_Upload/Authenticate~Terminate_Connection &rtrif; undefined</a>"},{"title":"File_Upload/Request_Filters","link":"<a href=\"module-File_Upload_Request_Filters.html\">File_Upload/Request_Filters</a>"},{"title":"module:File_Upload/Request_Filters~Build_Array_Of_Field_Objs","link":"<a href=\"module-File_Upload_Request_Filters.html#~Build_Array_Of_Field_Objs\">module:File_Upload/Request_Filters~Build_Array_Of_Field_Objs &rtrif; undefined</a>"},{"title":"module:File_Upload/Request_Filters~File_Filter","link":"<a href=\"module-File_Upload_Request_Filters.html#~File_Filter\">module:File_Upload/Request_Filters~File_Filter &rtrif; undefined</a>"},{"title":"module:File_Upload/Request_Filters~Filter_By_Size","link":"<a href=\"module-File_Upload_Request_Filters.html#~Filter_By_Size\">module:File_Upload/Request_Filters~Filter_By_Size &rtrif; undefined</a>"},{"title":"module:File_Upload/Request_Filters~To_Byte_Size","link":"<a href=\"module-File_Upload_Request_Filters.html#~To_Byte_Size\">module:File_Upload/Request_Filters~To_Byte_Size &rtrif; undefined</a>"},{"title":"module:File_Upload/Request_Filters~Verify_Uploaded_Files","link":"<a href=\"module-File_Upload_Request_Filters.html#~Verify_Uploaded_Files\">module:File_Upload/Request_Filters~Verify_Uploaded_Files &rtrif; undefined</a>"},{"title":"File_Upload/Upload_Files","link":"<a href=\"module-File_Upload_Upload_Files.html\">File_Upload/Upload_Files</a>"},{"title":"module:File_Upload/Upload_Files~File_To_Box","link":"<a href=\"module-File_Upload_Upload_Files.html#~File_To_Box\">module:File_Upload/Upload_Files~File_To_Box &rtrif; undefined</a>"},{"title":"Github/Github_Authorization","link":"<a href=\"module-Github_Github_Authorization.html\">Github/Github_Authorization</a>"},{"title":"module:Github/Github_Authorization~Does_User_Have_Repository_Access","link":"<a href=\"module-Github_Github_Authorization.html#~Does_User_Have_Repository_Access\">module:Github/Github_Authorization~Does_User_Have_Repository_Access &rtrif; undefined</a>"},{"title":"module:Github/Github_Authorization~Get_Member_Status","link":"<a href=\"module-Github_Github_Authorization.html#~Get_Member_Status\">module:Github/Github_Authorization~Get_Member_Status &rtrif; undefined</a>"},{"title":"module:Github/Github_Authorization~Get_User_Orgs","link":"<a href=\"module-Github_Github_Authorization.html#~Get_User_Orgs\">module:Github/Github_Authorization~Get_User_Orgs &rtrif; undefined</a>"},{"title":"module:Github/Github_Authorization~Get_Username","link":"<a href=\"module-Github_Github_Authorization.html#~Get_Username\">module:Github/Github_Authorization~Get_Username &rtrif; undefined</a>"},{"title":"module:Github/Github_Authorization~Is_User_In_Org","link":"<a href=\"module-Github_Github_Authorization.html#~Is_User_In_Org\">module:Github/Github_Authorization~Is_User_In_Org &rtrif; undefined</a>"},{"title":"module:Github/Github_Authorization~Is_User_Valid","link":"<a href=\"module-Github_Github_Authorization.html#~Is_User_Valid\">module:Github/Github_Authorization~Is_User_Valid &rtrif; undefined</a>"},{"title":"Permissions/Permission_Functions","link":"<a href=\"module-Permissions_Permission_Functions.html\">Permissions/Permission_Functions</a>"},{"title":"module:Permissions/Permission_Functions~Permission_To_Delete_Relay","link":"<a href=\"module-Permissions_Permission_Functions.html#~Permission_To_Delete_Relay\">module:Permissions/Permission_Functions~Permission_To_Delete_Relay &rtrif; undefined</a>"},{"title":"module:Permissions/Permission_Functions~Permission_To_Delete_Subject_Key","link":"<a href=\"module-Permissions_Permission_Functions.html#~Permission_To_Delete_Subject_Key\">module:Permissions/Permission_Functions~Permission_To_Delete_Subject_Key &rtrif; undefined</a>"},{"title":"module:Permissions/Permission_Functions~Permission_To_Get_Relay_Params","link":"<a href=\"module-Permissions_Permission_Functions.html#~Permission_To_Get_Relay_Params\">module:Permissions/Permission_Functions~Permission_To_Get_Relay_Params &rtrif; undefined</a>"},{"title":"module:Permissions/Permission_Functions~Permission_To_Get_Subject_Key","link":"<a href=\"module-Permissions_Permission_Functions.html#~Permission_To_Get_Subject_Key\">module:Permissions/Permission_Functions~Permission_To_Get_Subject_Key &rtrif; undefined</a>"},{"title":"module:Permissions/Permission_Functions~Permission_To_Make_Relay","link":"<a href=\"module-Permissions_Permission_Functions.html#~Permission_To_Make_Relay\">module:Permissions/Permission_Functions~Permission_To_Make_Relay &rtrif; undefined</a>"},{"title":"module:Permissions/Permission_Functions~Permission_To_Make_Subject_Key","link":"<a href=\"module-Permissions_Permission_Functions.html#~Permission_To_Make_Subject_Key\">module:Permissions/Permission_Functions~Permission_To_Make_Subject_Key &rtrif; undefined</a>"},{"title":"module:Permissions/Permission_Functions~Permission_To_Modify_Relay_Params","link":"<a href=\"module-Permissions_Permission_Functions.html#~Permission_To_Modify_Relay_Params\">module:Permissions/Permission_Functions~Permission_To_Modify_Relay_Params &rtrif; undefined</a>"},{"title":"module:Permissions/Permission_Functions~Permission_To_Modify_Subject_Key","link":"<a href=\"module-Permissions_Permission_Functions.html#~Permission_To_Modify_Subject_Key\">module:Permissions/Permission_Functions~Permission_To_Modify_Subject_Key &rtrif; undefined</a>"},{"title":"Relay/Relay_Base","link":"<a href=\"module-Relay_Relay_Base.html\">Relay/Relay_Base</a>"},{"title":"module:Relay/Relay_Base~Add_Relay","link":"<a href=\"module-Relay_Relay_Base.html#~Add_Relay\">module:Relay/Relay_Base~Add_Relay &rtrif; undefined</a>"},{"title":"module:Relay/Relay_Base~Delete_Relay","link":"<a href=\"module-Relay_Relay_Base.html#~Delete_Relay\">module:Relay/Relay_Base~Delete_Relay &rtrif; undefined</a>"},{"title":"module:Relay/Relay_Base~Get_Relay_Params","link":"<a href=\"module-Relay_Relay_Base.html#~Get_Relay_Params\">module:Relay/Relay_Base~Get_Relay_Params &rtrif; undefined</a>"},{"title":"module:Relay/Relay_Base~Iterate_Relay_Params","link":"<a href=\"module-Relay_Relay_Base.html#~Iterate_Relay_Params\">module:Relay/Relay_Base~Iterate_Relay_Params &rtrif; undefined</a>"},{"title":"module:Relay/Relay_Base~Make_Relay_Table","link":"<a href=\"module-Relay_Relay_Base.html#~Make_Relay_Table\">module:Relay/Relay_Base~Make_Relay_Table &rtrif; undefined</a>"},{"title":"module:Relay/Relay_Base~Set_Base_Folder","link":"<a href=\"module-Relay_Relay_Base.html#~Set_Base_Folder\">module:Relay/Relay_Base~Set_Base_Folder &rtrif; undefined</a>"},{"title":"module:Relay/Relay_Base~Set_Write_Endpoints","link":"<a href=\"module-Relay_Relay_Base.html#~Set_Write_Endpoints\">module:Relay/Relay_Base~Set_Write_Endpoints &rtrif; undefined</a>"},{"title":"module:Relay/Relay_Base~Update_Relay_Params","link":"<a href=\"module-Relay_Relay_Base.html#~Update_Relay_Params\">module:Relay/Relay_Base~Update_Relay_Params &rtrif; undefined</a>"},{"title":"Relay/Relay_Router","link":"<a href=\"module-Relay_Relay_Router.html\">Relay/Relay_Router</a>"},{"title":"module:Relay/Relay_Router.Basic_Authorization_Relay_And_Github_Key","link":"<a href=\"module-Relay_Relay_Router.html#.Basic_Authorization_Relay_And_Github_Key\">module:Relay/Relay_Router &rtrif; Basic_Authorization_Relay_And_Github_Key</a>"},{"title":"module:Relay/Relay_Router~Terminate_Connection","link":"<a href=\"module-Relay_Relay_Router.html#~Terminate_Connection\">module:Relay/Relay_Router~Terminate_Connection &rtrif; undefined</a>"},{"title":"SQL/SQL_Functions","link":"<a href=\"module-SQL_SQL_Functions.html\">SQL/SQL_Functions</a>"},{"title":"module:SQL/SQL_Functions~Backup_DB","link":"<a href=\"module-SQL_SQL_Functions.html#~Backup_DB\">module:SQL/SQL_Functions~Backup_DB &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Clear_Table","link":"<a href=\"module-SQL_SQL_Functions.html#~Clear_Table\">module:SQL/SQL_Functions~Clear_Table &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Create_Table","link":"<a href=\"module-SQL_SQL_Functions.html#~Create_Table\">module:SQL/SQL_Functions~Create_Table &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Delete_All","link":"<a href=\"module-SQL_SQL_Functions.html#~Delete_All\">module:SQL/SQL_Functions~Delete_All &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Delete_Table","link":"<a href=\"module-SQL_SQL_Functions.html#~Delete_Table\">module:SQL/SQL_Functions~Delete_Table &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Delete_Table_Entry","link":"<a href=\"module-SQL_SQL_Functions.html#~Delete_Table_Entry\">module:SQL/SQL_Functions~Delete_Table_Entry &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Does_Table_Exist","link":"<a href=\"module-SQL_SQL_Functions.html#~Does_Table_Exist\">module:SQL/SQL_Functions~Does_Table_Exist &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Get_By_Key","link":"<a href=\"module-SQL_SQL_Functions.html#~Get_By_Key\">module:SQL/SQL_Functions~Get_By_Key &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Get_Table_Names","link":"<a href=\"module-SQL_SQL_Functions.html#~Get_Table_Names\">module:SQL/SQL_Functions~Get_Table_Names &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Get_Table_Schema","link":"<a href=\"module-SQL_SQL_Functions.html#~Get_Table_Schema\">module:SQL/SQL_Functions~Get_Table_Schema &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Insert_Object_Into_Table","link":"<a href=\"module-SQL_SQL_Functions.html#~Insert_Object_Into_Table\">module:SQL/SQL_Functions~Insert_Object_Into_Table &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Restore_From_Backup","link":"<a href=\"module-SQL_SQL_Functions.html#~Restore_From_Backup\">module:SQL/SQL_Functions~Restore_From_Backup &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Retrieve_All_From_Table","link":"<a href=\"module-SQL_SQL_Functions.html#~Retrieve_All_From_Table\">module:SQL/SQL_Functions~Retrieve_All_From_Table &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Update_Table_From_Obj","link":"<a href=\"module-SQL_SQL_Functions.html#~Update_Table_From_Obj\">module:SQL/SQL_Functions~Update_Table_From_Obj &rtrif; undefined</a>"},{"title":"module:SQL/SQL_Functions~Write_Table_To_CSV","link":"<a href=\"module-SQL_SQL_Functions.html#~Write_Table_To_CSV\">module:SQL/SQL_Functions~Write_Table_To_CSV &rtrif; undefined</a>"},{"title":"subject_Key/subject_Key_Router","link":"<a href=\"module-subject_Key_subject_Key_Router.html\">subject_Key/subject_Key_Router</a>"},{"title":"module:subject_Key/subject_Key_Router~Basic_Authentication","link":"<a href=\"module-subject_Key_subject_Key_Router.html#~Basic_Authentication\">module:subject_Key/subject_Key_Router~Basic_Authentication &rtrif; undefined</a>"},{"title":"module:subject_Key/subject_Key_Router~Terminate_Connection","link":"<a href=\"module-subject_Key_subject_Key_Router.html#~Terminate_Connection\">module:subject_Key/subject_Key_Router~Terminate_Connection &rtrif; undefined</a>"},{"title":"Write_Key/Write_Key_Base","link":"<a href=\"module-Write_Key_Write_Key_Base.html\">Write_Key/Write_Key_Base</a>"},{"title":"module:Write_Key/Write_Key_Base~Add_Subject_Key","link":"<a href=\"module-Write_Key_Write_Key_Base.html#~Add_Subject_Key\">module:Write_Key/Write_Key_Base~Add_Subject_Key &rtrif; undefined</a>"},{"title":"module:Write_Key/Write_Key_Base~Create_Custom_Path","link":"<a href=\"module-Write_Key_Write_Key_Base.html#~Create_Custom_Path\">module:Write_Key/Write_Key_Base~Create_Custom_Path &rtrif; undefined</a>"},{"title":"module:Write_Key/Write_Key_Base~Delete_Subject_Key","link":"<a href=\"module-Write_Key_Write_Key_Base.html#~Delete_Subject_Key\">module:Write_Key/Write_Key_Base~Delete_Subject_Key &rtrif; undefined</a>"},{"title":"module:Write_Key/Write_Key_Base~Get_All_Subject_Keys","link":"<a href=\"module-Write_Key_Write_Key_Base.html#~Get_All_Subject_Keys\">module:Write_Key/Write_Key_Base~Get_All_Subject_Keys &rtrif; undefined</a>"},{"title":"module:Write_Key/Write_Key_Base~Get_Subject_Key","link":"<a href=\"module-Write_Key_Write_Key_Base.html#~Get_Subject_Key\">module:Write_Key/Write_Key_Base~Get_Subject_Key &rtrif; undefined</a>"},{"title":"module:Write_Key/Write_Key_Base~Random_Number_N_Digits","link":"<a href=\"module-Write_Key_Write_Key_Base.html#~Random_Number_N_Digits\">module:Write_Key/Write_Key_Base~Random_Number_N_Digits &rtrif; undefined</a>"},{"title":"module:Write_Key/Write_Key_Base~Update_Subject_Key","link":"<a href=\"module-Write_Key_Write_Key_Base.html#~Update_Subject_Key\">module:Write_Key/Write_Key_Base~Update_Subject_Key &rtrif; undefined</a>"},{"title":"API","link":"<a href=\"API.html\">API</a>"},{"title":"API.POST/relay/createRelay","link":"<a href=\"API.html#.POST/relay/createRelay\">API &rtrif; POST/relay/createRelay</a>"},{"title":"API.POST/relay/deleteRelay","link":"<a href=\"API.html#.POST/relay/deleteRelay\">API &rtrif; POST/relay/deleteRelay</a>"},{"title":"API.POST/relay/getRelay","link":"<a href=\"API.html#.POST/relay/getRelay\">API &rtrif; POST/relay/getRelay</a>"},{"title":"API.POST/relay/modifyRelay/","link":"<a href=\"API.html#.POST/relay/modifyRelay/\">API &rtrif; POST/relay/modifyRelay/</a>"},{"title":"API.POST/subjectKey/createSubjectKey","link":"<a href=\"API.html#.POST/subjectKey/createSubjectKey\">API &rtrif; POST/subjectKey/createSubjectKey</a>"},{"title":"API.POST/subjectKey/deleteSubjectKey","link":"<a href=\"API.html#.POST/subjectKey/deleteSubjectKey\">API &rtrif; POST/subjectKey/deleteSubjectKey</a>"},{"title":"API.POST/SubjectKey/getSubjectKey","link":"<a href=\"API.html#.POST/SubjectKey/getSubjectKey\">API &rtrif; POST/SubjectKey/getSubjectKey</a>"},{"title":"API.POST/subjectKey/modifysubjectKey","link":"<a href=\"API.html#.POST/subjectKey/modifysubjectKey\">API &rtrif; POST/subjectKey/modifysubjectKey</a>"},{"title":"API.POST/Upload/","link":"<a href=\"API.html#.POST/Upload/\">API &rtrif; POST/Upload/</a>"}];
+        var options = 
+          setupSearch(list, options)
+      </script>
+    
+
+    
+
+    
+
+    
+
+
+  </body>
+
+</html>
